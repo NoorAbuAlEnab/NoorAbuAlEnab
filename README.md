@@ -1,3 +1,7 @@
+<img src="Cover_Banner.png" width="100%" alt="Noor Abu Al-Enab" />
+
+<br/>
+
 <h1 align="left">Hi, I'm Noor Abu Al-Enab 👋</h1>
 
 <p align="left">
