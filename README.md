@@ -21,7 +21,7 @@ End-to-end digital voucher & gift card e-commerce platform — built solo from a
 - Multi-layer auth: **OTP · JWT · API key · RBAC** with full entity-level audit logging
 - React + TypeScript storefront, admin dashboard, Docker deployment, Azure Key Vault
 
-`ASP.NET Core` `Clean Architecture` `EF Core` `SQL Server` `React` `TypeScript` `Docker` `Azure Key Vault`
+`ASP.NET Core` `Clean Architecture` `EF Core` `PostgreSQL` `React` `TypeScript` `Docker` `Azure Key Vault`
 
 ---
 
@@ -45,6 +45,8 @@ Backend APIs, real-time performance dashboards, and large-scale legacy MVC migra
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" height="45" alt=".NET Core" title=".NET Core" />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" height="45" alt="ASP.NET" title="ASP.NET" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="45" alt="PostgreSQL" title="PostgreSQL" />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" height="45" alt="SQL Server" title="SQL Server" />
 </div>
@@ -76,7 +78,7 @@ Backend APIs, real-time performance dashboards, and large-scale legacy MVC migra
 <h2 align="left">📫 Let's Connect</h2>
 
 <div align="left">
-  <a href="https://www.linkedin.com/in/noor-abu-al-enab/" target="_blank">
+  <a href="https://www.linkedin.com/in/noorabualenab/" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="LinkedIn" />
   </a>
   <a href="mailto:noor.abu.alenab@gmail.com" target="_blank">
