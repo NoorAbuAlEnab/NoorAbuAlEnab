@@ -5,34 +5,36 @@
 <h1 align="left">Hi, I'm Noor Abu Al-Enab 👋</h1>
 
 <p align="left">
-  <b>Fullstack .NET Developer</b> — building scalable, production-ready web applications from backend APIs to consumer-facing frontends.<br/>
-  3+ years of professional experience · Clean Architecture · Domain-Driven Design · Open to remote & freelance
+  <b>Software Engineer · Full-Stack .NET</b>: building scalable, production-ready web applications, from event-driven backend services to React and Angular frontends.<br/>
+  4+ years of professional experience · C# · ASP.NET Core · Clean Architecture · DDD · CQRS · Open to remote & freelance
 </p>
 
 ---
 
-<h2 align="left">🚀 Notable Projects</h2>
+<h2 align="left">🚀 Notable Work</h2>
 
-### 🛒 Matensa Voucher Platform
-End-to-end digital voucher & gift card e-commerce platform — built solo from architecture to production.
+### 🚛 FMS Tech: Fleet Telematics Platform *(4+ years)*
+Modernizing a large legacy ASP.NET MVC platform into .NET 8 services, with live tracking, video telematics, road-safety analytics and high-volume reporting.
+
+- Improved performance of high-volume reports and backend services by **up to 70%**: connection reuse, removing duplicate API calls, O(n²) → dictionary lookups, indexed temp tables and pre-aggregated data
+- Built the core of an **event-driven** on-demand delivery order module: DDD aggregates, domain events dispatched via **MediatR**, real-time **SignalR** notifications
+- Led the migration of a legacy video-telematics module into a **.NET 8** service of 25 vertical slices (**CQRS**, FluentValidation, Carter minimal APIs)
+- Led the migration of production reports from **RDLC to DevExpress**
+- Vertical-slice CQRS features with **Redis** caching, covered by unit tests (**TUnit, Moq**) and **BenchmarkDotNet** benchmarks
+
+`C#` `.NET 8` `ASP.NET Core` `CQRS / MediatR` `DDD` `Redis` `SignalR` `SQL Server` `DevExpress` `Angular`
+
+---
+
+### 🛒 Matensa Voucher Platform *(freelance, 2026)*
+End-to-end digital voucher & gift card e-commerce platform, built solo from architecture to production.
 
 - Multi-provider fulfillment engine with **circuit-breaker, retry & timeout** resilience strategies
 - Dual-wallet system with multi-currency support and **AES-encrypted** voucher code storage
 - Multi-layer auth: **OTP · JWT · API key · RBAC** with full entity-level audit logging
 - React + TypeScript storefront, admin dashboard, Docker deployment, Azure Key Vault
 
-`ASP.NET Core` `Clean Architecture` `EF Core` `PostgreSQL` `React` `TypeScript` `Docker` `Azure Key Vault`
-
----
-
-### 🚛 FMS-Tech Fleet Management System *(3+ years)*
-Backend APIs, real-time performance dashboards, and large-scale legacy MVC migration to .NET Core with DDD.
-
-- Designed and maintained RESTful APIs with **Clean Architecture**
-- Engineered optimized **SQL Server** stored procedures, views, and complex queries
-- Led systematic refactoring of a **large-scale legacy MVC** codebase to .NET Core + DDD
-
-`C#` `ASP.NET Core` `EF Core` `SQL Server` `Angular` `DDD` `DevExpress`
+`C#` `ASP.NET Core` `Clean Architecture` `EF Core` `PostgreSQL` `React` `TypeScript` `Docker` `Azure Key Vault`
 
 ---
 
@@ -40,37 +42,44 @@ Backend APIs, real-time performance dashboards, and large-scale legacy MVC migra
 
 <h4 align="left">Backend</h4>
 <div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="45" alt="C#" title="C#" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" height="45" alt="C#" title="C#" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" height="45" alt=".NET Core" title=".NET Core" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg" height="45" alt=".NET" title=".NET" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" height="45" alt="ASP.NET" title="ASP.NET" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dot-net/dot-net-original.svg" height="45" alt="ASP.NET" title="ASP.NET" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="45" alt="PostgreSQL" title="PostgreSQL" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" height="45" alt="SQL Server" title="SQL Server" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" height="45" alt="SQL Server" title="SQL Server" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" height="45" alt="PostgreSQL" title="PostgreSQL" />
+</div>
+
+<h4 align="left">Messaging & Caching</h4>
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg" height="45" alt="Redis" title="Redis" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rabbitmq/rabbitmq-original.svg" height="45" alt="RabbitMQ" title="RabbitMQ" />
 </div>
 
 <h4 align="left">Frontend</h4>
 <div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="45" alt="React" title="React" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" height="45" alt="React" title="React" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="45" alt="TypeScript" title="TypeScript" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" height="45" alt="TypeScript" title="TypeScript" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" height="45" alt="Angular" title="Angular" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg" height="45" alt="Angular" title="Angular" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="45" alt="JavaScript" title="JavaScript" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" height="45" alt="JavaScript" title="JavaScript" />
 </div>
 
 <h4 align="left">DevOps & Tools</h4>
 <div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="45" alt="Docker" title="Docker" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" height="45" alt="Docker" title="Docker" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" height="45" alt="Azure" title="Azure" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg" height="45" alt="Azure" title="Azure" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="45" alt="Git" title="Git" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" height="45" alt="Git" title="Git" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" height="45" alt="Jira" title="Jira" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg" height="45" alt="Jira" title="Jira" />
 </div>
 
 ---
@@ -82,10 +91,10 @@ Backend APIs, real-time performance dashboards, and large-scale legacy MVC migra
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="LinkedIn" />
   </a>
   <a href="mailto:noor.abu.alenab@gmail.com" target="_blank">
-    <img src="https://img.icons8.com/?size=100&id=P7UIlhbpWzZm&format=png&color=000000" width="52" height="40" alt="Gmail" />
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="Gmail" />
   </a>
 </div>
 
 <br/>
 
-> 💼 **Open to remote positions and freelance projects** — fullstack or backend .NET
+> 💼 **Open to remote positions and freelance projects**: full-stack or backend .NET, in Europe and worldwide.
